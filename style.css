@@ -106,11 +106,13 @@ body {
   line-height: clamp(2.625rem, 2.066vw + 2.141rem, 4rem);
   letter-spacing: clamp(0.688rem, 0.563vw + 0.555rem, 1.063rem);
   margin-bottom: clamp(1rem, 1.502vw + 0.648rem, 2rem);
+  text-transform: uppercase;
 }
 
 .e-content__title strong {
   color: var(--neutral-600);
   font-weight: var(--fw-semibold);
+  line-height: clamp(2.625rem, 2.723vw + 1.987rem, 4.438rem);
 }
 
 .e-content__text {
