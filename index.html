@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="./main.js" defer></script>
+    <title>Frontend Mentor | Base Apparel coming soon page</title>
+  </head>
+  <body>
+    <header class="b-header">
+      <img src="./images/logo.svg" alt="" class="e-header__logo" />
+    </header>
+    <main>
+      <section class="b-hero">
+        <picture class="e-hero__illustration">
+          <source
+            srcset="./images/hero-desktop.jpg"
+            media="(min-width: 40rem)"
+          />
+          <img
+            src="./images/hero-mobile.jpg"
+            alt="A young woman with mid-length wavy hair wearing an orange shirt with a pocket on the left side, adorned with a bracelet with charms on the left wrist, standing in front of a background of green plants."
+          />
+        </picture>
+      </section>
+      <section class="b-content">
+        <div class="e-content__body">
+          <h1 class="e-content__title">We're <strong>coming soon</strong></h1>
+          <p class="e-content__text">
+            Hello fellow shoppers! We're currently building our new fashion
+            store. Add your email below to stay up-to-date with announcements
+            and our launch deals.
+          </p>
+        </div>
+        <form class="b-form" id="form">
+          <div class="input-wrapper" id="input-wrapper">
+            <label for="email" class="visually-hidden">Email Address</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email Address"
+              class="e-form__email"
+            />
+            <button class="e-form__button" id="submit-button">
+              <img class="e-form__icon" src="./images/icon-arrow.svg" alt="" />
+            </button>
+          </div>
+          <p class="error-message" id="error-message"></p>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
