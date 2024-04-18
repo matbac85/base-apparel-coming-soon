@@ -14,7 +14,7 @@ Users should be able to:
 
 ## Links
 
-- [solution URL here](https://your-solution-url.com)
+- [solution here](https://matbac85.github.io/base-apparel-coming-soon/)
 
 ### Built with
 
